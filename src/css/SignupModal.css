@@ -1,0 +1,38 @@
+.modal_signup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+  
+.modal-main_signup {
+    position:fixed;
+    background: white;
+    width: 28%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+  
+.show-block {
+    display: block;
+}
+  
+.show-none {
+    display: none;
+}
+
+.gotologin {
+    float: right;
+    margin-right: 3%;
+    background-color: #FF6738;
+    padding: 2%;
+}
+
+.gotologin:hover {
+    cursor: pointer;
+}

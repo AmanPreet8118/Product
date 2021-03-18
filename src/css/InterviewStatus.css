@@ -1,0 +1,20 @@
+.interview_status {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.interview_status nav ul {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-block-end: unset;
+    justify-content: space-around;
+    width: 100%;
+    padding-inline-start: 0px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

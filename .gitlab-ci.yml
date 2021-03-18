@@ -1,0 +1,21 @@
+stages:
+  - build
+
+react_build:
+  stage: build
+  before_script:
+    - echo "Installing NPM Dependencies and building React app"
+  script:
+    - fuser -k 3000/tcp
+    - npm install
+    - nohup npm start &
+  after_script:
+    - echo "Installation and run successful"
+  cache:
+    key: install-cache
+    paths:
+      - node_modules/
+  tags: 
+    - frontend
+  only:
+    - master

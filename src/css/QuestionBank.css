@@ -1,0 +1,54 @@
+.question_btn {
+    background-color: #FF6738;
+    color: #FFFFFF;
+    padding: 1%;
+    float: right;
+    margin-right: 10%;
+}
+
+.question_btn:hover {
+    cursor: pointer;
+}
+
+.questions_list {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.question {
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 100%;
+    padding: 1% 0% 1% 1%;
+    font-size: 18px;
+    padding-bottom: 1%;
+}
+
+.add_ques_close {
+    margin-block-start: unset;
+    text-align: end;
+    padding: 2% 2% 2% 0%;
+    background-color: black;
+    color: white;
+}
+
+.add_question section {
+    padding-left: 3%;
+}
+
+.add_question p:hover {
+    cursor: pointer;
+}
+
+.add_question input[type="text"] {
+    width: 90%;
+}
+
+.add_ques_submit {
+    float: right;
+    margin-right: 3%;
+    background-color: #FF6738;
+    padding: 2%;
+    color: white;
+}

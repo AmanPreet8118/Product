@@ -1,0 +1,26 @@
+.banner{
+    background-color: #0F1317;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding: 1%;
+    margin: 1% 7%;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+    margin: 2% 10%;
+}
+.card-header{
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+.each-card{
+    box-shadow: 1px 5px 5px 2px #b1afaf;
+}
+.content{
+    padding: 1% 5%;
+}
